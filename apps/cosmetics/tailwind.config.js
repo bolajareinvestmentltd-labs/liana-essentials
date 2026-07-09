@@ -1,14 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "../../packages/ui/**/*.{js,ts,jsx,tsx}"
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "../../packages/ui/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       colors: {
-        brand: '#F5F5DC', // Soft Cream Placeholder
-        accent: '#556B2F', // Olive Green Placeholder
+        brand: {
+          green: '#4A5D4E', // Rich Sage Green
+          gold: '#D4AF37',  // Warm Gold
+        }
       }
     },
   },

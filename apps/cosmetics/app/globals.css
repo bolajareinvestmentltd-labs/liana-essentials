@@ -3,6 +3,5 @@
 @tailwind utilities;
 
 body {
-  background-color: #FAFAFA;
-  padding-bottom: 80px; /* Space for the DockMobile */
+  background-color: #FAFAFA; /* Soft Cream / Alabaster */
 }
